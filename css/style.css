@@ -10,6 +10,7 @@ Colors:
 	Grey 		  : #F4F4F4 #FAFAFA #EEE
   Anyelir Green : #8bc53d
   Anyelir Pink : #ff0062
+  Logo Font : Chaparral Pro
 
 Fonts: Montserrat Varela Round
 
@@ -22,6 +23,9 @@ Table OF Contents
 5 > About
 6 > Portfolio
 7 > Services
+  > Services Bali
+  > Services Yogyakarta
+  > Services Lombok
 8 >  Why choose us
 9 >  Numbers
 10 > Pricing
@@ -118,6 +122,10 @@ ul, ol {
     margin: 0;
     padding: 0;
     list-style: none
+}
+
+.justify {
+  text-align: justify;
 }
 
 /* -- section  -- */
@@ -266,8 +274,13 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     padding: 0;
 }
 
-.navbar-brand .logo, .navbar-brand .logo-alt {
-    max-height: 50px;
+.navbar-brand .logo, .navbar-brand {
+    max-height: 75px;
+    display: block;
+}
+
+.logo-alt {
+    max-height: 150px;
     display: block;
 }
 
@@ -783,6 +796,176 @@ header {
 
 
 /*------------------------------------*\
+	Services Bali
+\*------------------------------------*/
+
+.service-dps {
+    position: relative;
+    padding: 40px 20px 40px 70px;
+    margin: 15px 0px;
+    border: 1px solid #EEE;
+
+}
+
+.service-dps i {
+    position: absolute;
+    left: 20px;
+    text-align: center;
+    font-size: 32px;
+    color: #ff0062;
+    border-radius: 50%;
+}
+
+.service-dps:after {
+    content: "";
+    background-image: url(../img/Banner-Bali-Tampak-Siring.jpg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    z-index: -1;
+    -webkit-transition: 0.2s width;
+    transition: 0.2s width;
+}
+
+.service-dps:hover:after {
+    background-image: url(../img/Banner-Bali-Tampak-Siring.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+
+.service-dps h3 {
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+}
+
+.service-dps:hover h3 {
+    color: #fff;
+}
+
+.service-dps:hover p {
+    color: #fff;
+}
+
+/*------------------------------------*\
+	Services Yogyakarta
+\*------------------------------------*/
+
+.service-jog {
+    position: relative;
+    padding: 40px 20px 40px 70px;
+    margin: 15px 0px;
+    border: 1px solid #EEE;
+
+}
+
+.service-jog i {
+    position: absolute;
+    left: 20px;
+    text-align: center;
+    font-size: 32px;
+    color: #ff0062;
+    border-radius: 50%;
+}
+
+.service-jog:after {
+    content: "";
+    background-image: url(../img/Banner-Yogya-Borobudur.jpg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    z-index: -1;
+    -webkit-transition: 0.2s width;
+    transition: 0.2s width;
+}
+
+.service-jog:hover:after {
+    background-image: url(../img/Banner-Yogya-Borobudur.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+
+.service-jog h3 {
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+}
+
+.service-jog:hover h3 {
+    color: #fff;
+}
+
+.service-jog:hover p {
+    color: #fff;
+}
+
+
+/*------------------------------------*\
+	Services Lombok
+\*------------------------------------*/
+
+.service-lop {
+    position: relative;
+    padding: 40px 20px 40px 70px;
+    margin: 15px 0px;
+    border: 1px solid #EEE;
+
+}
+
+.service-lop i {
+    position: absolute;
+    left: 20px;
+    text-align: center;
+    font-size: 32px;
+    color: #ff0062;
+    border-radius: 50%;
+}
+
+.service-lop:after {
+    content: "";
+    background-image: url(../img/Banner-Lombok-SelongBelanak.jpg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    z-index: -1;
+    -webkit-transition: 0.2s width;
+    transition: 0.2s width;
+}
+
+.service-lop:hover:after {
+    background-image: url(../img/Banner-Lombok-SelongBelanak.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+
+.service-lop h3 {
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+}
+
+.service-lop:hover h3 {
+    color: #fff;
+}
+
+.service-lop:hover p {
+    color: #fff;
+}
+
+
+/*------------------------------------*\
 	Services
 \*------------------------------------*/
 
@@ -791,6 +974,7 @@ header {
     padding: 40px 20px 40px 70px;
     margin: 15px 0px;
     border: 1px solid #EEE;
+
 }
 
 .service i {
@@ -825,6 +1009,10 @@ header {
 }
 
 .service:hover h3 {
+    color: #fff;
+}
+
+.service:hover p {
     color: #fff;
 }
 
@@ -1460,7 +1648,7 @@ header {
 }
 
 .footer-logo>a>img {
-    max-height: 80px;
+    max-height: 200px;
 }
 
 .footer-follow {
