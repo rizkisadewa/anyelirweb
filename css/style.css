@@ -270,13 +270,37 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	Logo
 \*------------------------------------*/
 
+.navbar-brand-centered {
+    position: absolute;
+    left: 48%;
+    display: block;
+    width: 160px;
+    text-align: center;
+
+}
+.navbar>.container .navbar-brand-centered,
+.navbar>.container-fluid .navbar-brand-centered {
+    margin-left: -80px;
+}
+
 .navbar-brand {
     padding: 0;
 }
 
-.navbar-brand .logo, .navbar-brand {
+.navbar-brand, .navbar-brand {
     max-height: 75px;
     display: block;
+    text-align:center;
+    float: none;
+    vertical-align: top;
+}
+
+.logo {
+  max-height: 150px;
+  display: block;
+  text-align:left;
+  float: none;
+  vertical-align: top;
 }
 
 .logo-alt {
@@ -372,6 +396,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     .main-nav>li>a:hover:after, .main-nav>li.active>a:after {
         width: 100%;
     }
+
     /* dropdown */
     .has-dropdown {
         position: relative;
@@ -409,6 +434,13 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         right: 50%;
     }
     .main-nav>.has-dropdown>.dropdown .dropdown.dropdown-left {
+        right: 150%;
+    }
+    .navbar-right>.has-dropdown>.dropdown {
+        top: 100%;
+        right: 50%;
+    }
+    .navbar-right>.has-dropdown>.dropdown .dropdown.dropdown-left {
         right: 150%;
     }
     .dropdown li a {
