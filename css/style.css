@@ -270,17 +270,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	Logo
 \*------------------------------------*/
 
-.navbar-brand-centered {
-    position: absolute;
-    left: 48%;
-    display: block;
-    width: 160px;
-    text-align: center;
-
-}
-.navbar>.container .navbar-brand-centered,
-.navbar>.container-fluid .navbar-brand-centered {
-    margin-left: -80px;
+.nav-center {
+  position: absolute;
+  left: 48%;
+  text-align: center;
 }
 
 .navbar-brand {
