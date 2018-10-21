@@ -272,7 +272,6 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 .nav-center {
   position: absolute;
-  left: 48%;
   text-align: center;
 }
 
@@ -281,12 +280,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .navbar-brand .logo, .navbar-brand {
-    max-height: 75px;
+    max-height: 60px;
     display: block;
 }
 
 .logo-alt {
-    max-height: 150px;
+    max-height: 60px;
     display: block;
 }
 
