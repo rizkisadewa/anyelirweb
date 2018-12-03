@@ -2146,10 +2146,10 @@ header {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #6195FF;
+    background: #ff0062;
 }
 .owl-theme .owl-dots .owl-dot.active span {
-	  background: #6195FF;
+	  background: #ff0062;
 	  width:20px;
 }
 
@@ -2171,7 +2171,7 @@ header {
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-    background: #6195FF;
+    background: #ff0062;
     color: #FFF;
   	padding: 0px;
   	width: 50px;
@@ -2191,7 +2191,7 @@ header {
 
 .owl-theme .owl-nav [class*='owl-']:hover {
     opacity: 0.8;
-    background: #6195FF;
+    background: #ff0062;
 }
 
 
