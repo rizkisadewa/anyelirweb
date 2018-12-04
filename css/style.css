@@ -1631,7 +1631,7 @@ header {
 }
 
 .team:hover .team-content span {
-    color: #6195FF;
+    color: #ff0062;
 }
 
 .team .team-social {
@@ -1648,7 +1648,7 @@ header {
     line-height: 50px;
     width: 50px;
     text-align: center;
-    background-color: #6195FF;
+    background-color: #ff0062;
     color: #FFF;
 }
 
