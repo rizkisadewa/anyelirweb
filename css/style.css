@@ -230,7 +230,7 @@ textarea {
 }
 
 input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="number"]:focus, input[type="date"]:focus, input[type="url"]:focus, input[type="tel"]:focus, textarea:focus {
-    border-color: #6195FF;
+    border-color: #8bc53d;
     opacity: 1;
 }
 
@@ -1548,7 +1548,7 @@ header {
 
 .testimonial span {
     font-size: 14px;
-    color: #6195FF;
+    color: #8bc53d;
     text-transform: uppercase;
 }
 
@@ -1982,7 +1982,7 @@ header {
 
 .contact i {
     font-size: 36px;
-    color: #6195FF;
+    color: #8bc53d;
     margin-bottom: 20px;
 }
 
@@ -2018,7 +2018,7 @@ header {
 }
 
 .footer-logo>a>img {
-    max-height: 200px;
+    max-height: 150px;
 }
 
 .footer-follow {
@@ -2039,7 +2039,7 @@ header {
   line-height: 50px;
   text-align: center;
   border-radius: 3px;
-  background-color: #6195FF;
+  background-color: #ff0062;
   color:#FFF;
 }
 
@@ -2251,7 +2251,7 @@ header {
 }
 .preloader span {
     display: inline-block;
-    background-color: #6195FF;
+    background-color: #8bc53d;
     width: 25px;
     height: 25px;
     -webkit-animation: 1s preload ease-in-out infinite;
